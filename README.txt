@@ -59,7 +59,7 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Changelog ==
 
-= [v1.0.1](https://github.com/philiparthurmoore/Subtitles/releases/tag/v1.0.1) (June 14th, 2014) =
+= v1.0.1 (June 14th, 2014) =
 
 * Bug Fix: Make sure that the plugin automatically works with `single_post_title` (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/2)).
 * Bug Fix: Ensure that special characters in post titles do not erroneously cause subtitles to be skipped during title filtering and checks (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/3)).
@@ -71,14 +71,14 @@ There are two types of questions that are anticipated: user questions and develo
 * Extra: Italian (it_IT) language packs added.
 * Extra: Japanese (ja) language packs added.
 
-= [v1.0.0](https://github.com/philiparthurmoore/Subtitles/releases/tag/v1.0.0) (June 12th, 2014) =
+= v1.0.0 (June 12th, 2014) =
 * Initial Release ([Launch Announcement](https://philiparthurmoore.com/subtitles))
 
 == Upgrade Notice ==
 
 Lots of bug fixes and language additions in the latest release. Enjoy!
 
-= [v1.0.1](https://github.com/philiparthurmoore/Subtitles/releases/tag/v1.0.1) (June 14th, 2014) =
+= v1.0.1 (June 14th, 2014) =
 
 * Bug Fix: Make sure that the plugin automatically works with `single_post_title` (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/2)).
 * Bug Fix: Ensure that special characters in post titles do not erroneously cause subtitles to be skipped during title filtering and checks (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/3)).
