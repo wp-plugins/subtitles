@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: subtitle, subtitles, title, titles
 Requires at least: 3.9
 Tested up to: 3.9.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,10 +59,33 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Changelog ==
 
-= 1.0.0 =
-* Initial Release
+= [v1.0.1](https://github.com/philiparthurmoore/Subtitles/releases/tag/v1.0.1) (June 14th, 2014) =
+
+* Bug Fix: Make sure that the plugin automatically works with `single_post_title` (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/2)).
+* Bug Fix: Ensure that special characters in post titles do not erroneously cause subtitles to be skipped during title filtering and checks (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/3)).
+* Bug Fix: Remove unnecessary ID checks against nav menus (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/4)).
+* Bug Fix: Resolve title output issues when [WordPress SEO by Yoast](https://wordpress.org/plugins/wordpress-seo/) breadcrumbs are used inside of [The Loop](http://codex.wordpress.org/The_Loop) (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/5)).
+* Extra: Vietnamese (vi_VN) language packs added.
+* Extra: German (de_DE) language packs added.
+* Extra: Finnish (fi) language packs added.
+* Extra: Italian (it_IT) language packs added.
+* Extra: Japanese (ja) language packs added.
+
+= [v1.0.0](https://github.com/philiparthurmoore/Subtitles/releases/tag/v1.0.0) (June 12th, 2014) =
+* Initial Release ([Launch Announcement](https://philiparthurmoore.com/subtitles))
 
 == Upgrade Notice ==
 
-= 1.0.0 =
-* Initial Release
+Lots of bug fixes and language additions in the latest release. Enjoy!
+
+= [v1.0.1](https://github.com/philiparthurmoore/Subtitles/releases/tag/v1.0.1) (June 14th, 2014) =
+
+* Bug Fix: Make sure that the plugin automatically works with `single_post_title` (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/2)).
+* Bug Fix: Ensure that special characters in post titles do not erroneously cause subtitles to be skipped during title filtering and checks (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/3)).
+* Bug Fix: Remove unnecessary ID checks against nav menus (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/4)).
+* Bug Fix: Resolve title output issues when [WordPress SEO by Yoast](https://wordpress.org/plugins/wordpress-seo/) breadcrumbs are used inside of [The Loop](http://codex.wordpress.org/The_Loop) (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/5)).
+* Extra: Vietnamese (vi_VN) language packs added.
+* Extra: German (de_DE) language packs added.
+* Extra: Finnish (fi) language packs added.
+* Extra: Italian (it_IT) language packs added.
+* Extra: Japanese (ja) language packs added.
