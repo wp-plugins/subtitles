@@ -59,6 +59,15 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Changelog ==
 
+= v1.0.2 (June 18th, 2014) =
+
+* Bug Fix: Check if `$post` is set before proceeding with any title filtering for subtitles (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/12)).
+* Bug Fix: Add a single space between titles and subtitles so that they look sensible when being output as a title attribute (see [commit](https://github.com/philiparthurmoore/Subtitles/commit/5b54263fcf82de6db9e7e0875a0a99974758a81f)).
+* Extra: Catalan (ca) language packs added (see [issue](https://github.com/philiparthurmoore/Subtitles/pull/11)).
+* Extra: Korean (ko_KR) language packs added (see [issue](https://github.com/philiparthurmoore/Subtitles/pull/10)).
+* Extra: Spanish (es_ES) language packs added (see [issue](https://github.com/philiparthurmoore/Subtitles/pull/11)).
+* Extra: Begin preparing plugin for better automated testing via [Travis CI](https://travis-ci.org/), [phpunit](https://github.com/sebastianbergmann/phpunit/), [WordPress Coding Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards), and [CodeSniffer](http://pear.php.net/package/PHP_CodeSniffer/)
+
 = v1.0.1 (June 14th, 2014) =
 
 * Bug Fix: Make sure that the plugin automatically works with `single_post_title` (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/2)).
@@ -76,16 +85,15 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Upgrade Notice ==
 
-Lots of bug fixes and language additions in the latest release. Enjoy!
+Two primary bug fixes in this release, the first of which is making sure that post subtitles don't cause errors on search results pages when there are no results, and the second of which is a small adjustment to make sure that there's a space between titles and subtitles within link attributes.
 
-= v1.0.1 (June 14th, 2014) =
+Other extra include added language packs into the plugin.
 
-* Bug Fix: Make sure that the plugin automatically works with `single_post_title` (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/2)).
-* Bug Fix: Ensure that special characters in post titles do not erroneously cause subtitles to be skipped during title filtering and checks (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/3)).
-* Bug Fix: Remove unnecessary ID checks against nav menus (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/4)).
-* Bug Fix: Resolve title output issues when [WordPress SEO by Yoast](https://wordpress.org/plugins/wordpress-seo/) breadcrumbs are used inside of [The Loop](http://codex.wordpress.org/The_Loop) (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/5)).
-* Extra: Vietnamese (vi_VN) language packs added.
-* Extra: German (de_DE) language packs added.
-* Extra: Finnish (fi) language packs added.
-* Extra: Italian (it_IT) language packs added.
-* Extra: Japanese (ja) language packs added.
+= v1.0.2 (June 18th, 2014) =
+
+* Bug Fix: Check if `$post` is set before proceeding with any title filtering for subtitles (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/12)).
+* Bug Fix: Add a single space between titles and subtitles so that they look sensible when being output as a title attribute (see [commit](https://github.com/philiparthurmoore/Subtitles/commit/5b54263fcf82de6db9e7e0875a0a99974758a81f)).
+* Extra: Catalan (ca) language packs added (see [issue](https://github.com/philiparthurmoore/Subtitles/pull/11)).
+* Extra: Korean (ko_KR) language packs added (see [issue](https://github.com/philiparthurmoore/Subtitles/pull/10)).
+* Extra: Spanish (es_ES) language packs added (see [issue](https://github.com/philiparthurmoore/Subtitles/pull/11)).
+* Extra: Begin preparing plugin for better automated testing via [Travis CI](https://travis-ci.org/), [phpunit](https://github.com/sebastianbergmann/phpunit/), [WordPress Coding Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards), and [CodeSniffer](http://pear.php.net/package/PHP_CodeSniffer/)
