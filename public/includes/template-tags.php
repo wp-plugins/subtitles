@@ -36,10 +36,11 @@ if ( ! function_exists( 'the_subtitle' ) ) {
 
 		$subtitle = $before . $subtitle . $after;
 
-		if ( $echo )
+		if ( $echo ) {
 			echo $subtitle;
-		else
+		} else {
 			return $subtitle;
+		}
 	} // end the_subtitle()
 } // end the_subtitle check
 
