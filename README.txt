@@ -59,6 +59,10 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Changelog ==
 
+= v1.0.3 (June 19th, 2014) =
+
+* Bug Fix: Ensure that _Subtitles_ works in PHP 5.2.4 environments (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/8)).
+
 = v1.0.2 (June 18th, 2014) =
 
 * Bug Fix: Check if `$post` is set before proceeding with any title filtering for subtitles (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/12)).
@@ -85,15 +89,8 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Upgrade Notice ==
 
-Two primary bug fixes in this release, the first of which is making sure that post subtitles don't cause errors on search results pages when there are no results, and the second of which is a small adjustment to make sure that there's a space between titles and subtitles within link attributes.
+The primary bug fix in this release is that Subtitles was failing in PHP 5.2 environments. WordPress currently runs with PHP 5.2 in around fourty percent of its installs, so I took care of that fix.
 
-Other extra include added language packs into the plugin.
+= v1.0.3 (June 19th, 2014) =
 
-= v1.0.2 (June 18th, 2014) =
-
-* Bug Fix: Check if `$post` is set before proceeding with any title filtering for subtitles (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/12)).
-* Bug Fix: Add a single space between titles and subtitles so that they look sensible when being output as a title attribute (see [commit](https://github.com/philiparthurmoore/Subtitles/commit/5b54263fcf82de6db9e7e0875a0a99974758a81f)).
-* Extra: Catalan (ca) language packs added (see [issue](https://github.com/philiparthurmoore/Subtitles/pull/11)).
-* Extra: Korean (ko_KR) language packs added (see [issue](https://github.com/philiparthurmoore/Subtitles/pull/10)).
-* Extra: Spanish (es_ES) language packs added (see [issue](https://github.com/philiparthurmoore/Subtitles/pull/11)).
-* Extra: Begin preparing plugin for better automated testing via [Travis CI](https://travis-ci.org/), [phpunit](https://github.com/sebastianbergmann/phpunit/), [WordPress Coding Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards), and [CodeSniffer](http://pear.php.net/package/PHP_CodeSniffer/)
+* Bug Fix: Ensure that _Subtitles_ works in PHP 5.2.4 environments (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/8)).
