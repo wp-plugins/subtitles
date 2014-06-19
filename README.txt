@@ -1,0 +1,96 @@
+=== Subtitles ===
+Contributors: philiparthurmoore
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2XTWCMPJ3NCYG
+Tags: subtitle, subtitles, title, titles
+Requires at least: 3.9
+Tested up to: 3.9.1
+Stable tag: 1.0.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Add subtitles into your WordPress posts, pages, custom post types, and themes. No coding required. Simply activate Subtitles and you're ready.
+
+== Description ==
+
+Right now WordPress currently presents no easy way for web publishers to add subtitles into their posts, pages, and other custom post types. This leaves users and developers in a bit of a quandary, trying to figure out how best to present subtitles in a beautiful and sensible way. Post [excerpts](http://codex.wordpress.org/Function_Reference/the_excerpt) are a very poor choice for subtitles and the only available option outside of [custom fields](http://codex.wordpress.org/Custom_Fields), but custom fields aren't entirely self-explanatory or user-friendly. This simple, straightforward plugin aims to solve this issue.
+
+Simply download *Subtitles*, activate it, and begin adding subtitles into your posts and pages today. For more advanced usage of the plugin, please see the [Frequently Asked Questions](http://wordpress.org/plugins/subtitles/faq/).
+
+If you like *Subtitles*, [thank me with coffee](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2XTWCMPJ3NCYG). If you find it buggy, [tell me on GitHub](https://github.com/philiparthurmoore/Subtitles/issues). And if you have a cool example of how you're using *Subtitles* on your website, let me know on [Twitter](https://twitter.com/philip_arthur).
+
+== Installation ==
+
+By default the *Subtitles* plugin just works. All you should need to do in order to begin using it is activate the plugin and begin adding subtitles into your posts, pages, and *Subtitles*-enabled custom post types.
+
+There are no custom template tags to add into your theme and, outside of advanced use, there is nothing you need to do to your theme in order to begin using this plugin.
+
+What follows are instructions on how to install the plugin and get it working.
+
+= Using The WordPress Dashboard (Recommended) =
+
+1. Navigate to *Plugins → Add New* from within the WordPress Dashboard.
+2. Search for `subtitles`.
+3. Click **Install Now** on *Subtitles* by Philip Arthur Moore.
+4. Activate the plugin.
+
+= Uploading in WordPress Dashboard =
+
+1. Navigate to *Plugins → Add New* from within the WordPress Dashboard.
+2. Click on the **Upload** link underneath the *Install Plugins* page title.
+3. Click the **Browse...** button and choose `subtitles.zip` in its download location on your computer.
+4. Click the **Install Now** button.
+5. Activate the plugin.
+
+= Using FTP (Not Recommended) =
+
+1. Download `subtitles.zip`.
+2. Extract the `subtitles` directory to your computer.
+3. Upload the `subtitles` directory to your `/wp-content/plugins/` directory.
+4. Navigate to *Plugins → Installed Plugins* and activate the plugin.
+
+== Frequently Asked Questions ==
+
+There are two types of questions that are anticipated: user questions and developer questions. I've addressed all of them on GitHub. Please hop over to the *Subtitles* [FAQ on GitHub](https://github.com/philiparthurmoore/Subtitles#frequently-asked-questions) for more information about using the plugin.
+
+== Screenshots ==
+
+1. The input prompt for subtitles.
+2. The front end view of a blog post with a subtitle.
+
+== Changelog ==
+
+= v1.0.3 (June 19th, 2014) =
+
+* Bug Fix: Ensure that _Subtitles_ works in PHP 5.2.4 environments (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/8)).
+
+= v1.0.2 (June 18th, 2014) =
+
+* Bug Fix: Check if `$post` is set before proceeding with any title filtering for subtitles (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/12)).
+* Bug Fix: Add a single space between titles and subtitles so that they look sensible when being output as a title attribute (see [commit](https://github.com/philiparthurmoore/Subtitles/commit/5b54263fcf82de6db9e7e0875a0a99974758a81f)).
+* Extra: Catalan (ca) language packs added (see [issue](https://github.com/philiparthurmoore/Subtitles/pull/11)).
+* Extra: Korean (ko_KR) language packs added (see [issue](https://github.com/philiparthurmoore/Subtitles/pull/10)).
+* Extra: Spanish (es_ES) language packs added (see [issue](https://github.com/philiparthurmoore/Subtitles/pull/11)).
+* Extra: Begin preparing plugin for better automated testing via [Travis CI](https://travis-ci.org/), [phpunit](https://github.com/sebastianbergmann/phpunit/), [WordPress Coding Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards), and [CodeSniffer](http://pear.php.net/package/PHP_CodeSniffer/)
+
+= v1.0.1 (June 14th, 2014) =
+
+* Bug Fix: Make sure that the plugin automatically works with `single_post_title` (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/2)).
+* Bug Fix: Ensure that special characters in post titles do not erroneously cause subtitles to be skipped during title filtering and checks (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/3)).
+* Bug Fix: Remove unnecessary ID checks against nav menus (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/4)).
+* Bug Fix: Resolve title output issues when [WordPress SEO by Yoast](https://wordpress.org/plugins/wordpress-seo/) breadcrumbs are used inside of [The Loop](http://codex.wordpress.org/The_Loop) (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/5)).
+* Extra: Vietnamese (vi_VN) language packs added.
+* Extra: German (de_DE) language packs added.
+* Extra: Finnish (fi) language packs added.
+* Extra: Italian (it_IT) language packs added.
+* Extra: Japanese (ja) language packs added.
+
+= v1.0.0 (June 12th, 2014) =
+* Initial Release ([Launch Announcement](https://philiparthurmoore.com/subtitles))
+
+== Upgrade Notice ==
+
+The primary bug fix in this release is that Subtitles was failing in PHP 5.2 environments. WordPress currently runs with PHP 5.2 in around fourty percent of its installs, so I took care of that fix.
+
+= v1.0.3 (June 19th, 2014) =
+
+* Bug Fix: Ensure that _Subtitles_ works in PHP 5.2.4 environments (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/8)).
