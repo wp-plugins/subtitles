@@ -89,7 +89,7 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Upgrade Notice ==
 
-The primary bug fix in this release is that Subtitles was failing in PHP 5.2 environments. WordPress currently runs with PHP 5.2 in around fourty percent of its installs, so I took care of that fix.
+The primary bug fix in this release is that Subtitles was failing in PHP 5.2 environments. WordPress currently runs with PHP 5.2 in around fourty percent of its installs, so I took care of this.
 
 = v1.0.3 (June 19th, 2014) =
 
