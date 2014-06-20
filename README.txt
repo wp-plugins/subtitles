@@ -59,6 +59,10 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Changelog ==
 
+= v1.0.4 (June 20th, 2014) =
+
+* Bug Fix: Make sure that other plugins that try to mess with titles do not cause _Subtitles_ to throw PHP warnings due to the second optional `$id` parameter not being sent to the primary `the_subtitles` method used throughout sites (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/16)).
+
 = v1.0.3 (June 19th, 2014) =
 
 * Bug Fix: Ensure that _Subtitles_ works in PHP 5.2.4 environments (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/8)).
@@ -89,8 +93,6 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Upgrade Notice ==
 
-The primary bug fix in this release is that Subtitles was failing in PHP 5.2 environments. WordPress currently runs with PHP 5.2 in around fourty percent of its installs, so I took care of this.
+= v1.0.4 (June 20th, 2014) =
 
-= v1.0.3 (June 19th, 2014) =
-
-* Bug Fix: Ensure that _Subtitles_ works in PHP 5.2.4 environments (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/8)).
+* Bug Fix: Make sure that other plugins that try to mess with titles do not cause _Subtitles_ to throw PHP warnings due to the second optional `$id` parameter not being sent to the primary `the_subtitles` method used throughout sites (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/16)).
