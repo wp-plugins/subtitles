@@ -44,7 +44,7 @@ if ( ! class_exists( 'Subtitles' ) ) {
 		 *
 		 * @since 1.0.0
 		 */
-		const VERSION = '1.0.0';
+		const VERSION = '1.0.5';
 
 		/**
 		 * Constant used when referencing the plugin in load text domain calls and other
@@ -662,7 +662,7 @@ if ( ! class_exists( 'Subtitles' ) ) {
 			 *
 			 * @since 1.0.0
 			 */
-			$title = $title . ' ' . $subtitle;
+			$title = '<span class="entry-title-primary">' . $title . '</span> ' . $subtitle;
 
 			/**
 			 * Filter the post subtitle, if necessary.
