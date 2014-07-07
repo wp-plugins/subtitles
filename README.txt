@@ -59,6 +59,13 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Changelog ==
 
+= v1.0.5 (July 7th, 2014) =
+
+- Bug Fix: If subtitles are shown in comment areas, we'll hide them by default.
+- Bug Fix: Better security for nonce checking after update to the WordPress VIP Coding Standards. See [this discussion](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/issues/190) for more information.
+- Extra: Wrap primary entry title parts in spans that theme authors can take advantage of for more fine-grained styling when a post has a subtitle.
+- Extra: French (fr_FR) language packs added (see [issue](https://github.com/philiparthurmoore/Subtitles/pull/18)).
+
 = v1.0.4 (June 20th, 2014) =
 
 * Bug Fix: Make sure that other plugins that try to mess with titles do not cause _Subtitles_ to throw PHP warnings due to the second optional `$id` parameter not being sent to the primary `the_subtitles` method used throughout sites (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/16)).
@@ -93,6 +100,9 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Upgrade Notice ==
 
-= v1.0.4 (June 20th, 2014) =
+= v1.0.5 (July 7th, 2014) =
 
-* Bug Fix: Make sure that other plugins that try to mess with titles do not cause _Subtitles_ to throw PHP warnings due to the second optional `$id` parameter not being sent to the primary `the_subtitles` method used throughout sites (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/16)).
+- Bug Fix: If subtitles are shown in comment areas, we'll hide them by default.
+- Bug Fix: Better security for nonce checking after update to the WordPress VIP Coding Standards. See [this discussion](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/issues/190) for more information.
+- Extra: Wrap primary entry title parts in spans that theme authors can take advantage of for more fine-grained styling when a post has a subtitle.
+- Extra: French (fr_FR) language packs added (see [issue](https://github.com/philiparthurmoore/Subtitles/pull/18)).
