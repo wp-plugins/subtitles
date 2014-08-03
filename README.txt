@@ -59,6 +59,10 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Changelog ==
 
+= v1.0.6 (August 4th, 2014) =
+
+- Bug Fix: Better visual styling in the back end to keep up with WordPress 4.0
+
 = v1.0.5 (July 7th, 2014) =
 
 - Bug Fix: If subtitles are shown in comment areas, we'll hide them by default.
