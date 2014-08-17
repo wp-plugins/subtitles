@@ -3,7 +3,7 @@ Contributors: philiparthurmoore
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2XTWCMPJ3NCYG
 Tags: subtitle, subtitles, title, titles
 Requires at least: 3.9
-Tested up to: 3.9.1
+Tested up to: 4.0
 Stable tag: 1.0.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -59,6 +59,11 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Changelog ==
 
+= v1.0.7 (August 17th, 2014) =
+
+- Bug Fix: Better backend tabbing from the title to the subtitle input field (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/23)).
+- Extra: Add default support for Jetpack Portfolios (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/26)).
+
 = v1.0.6 (August 4th, 2014) =
 
 - Bug Fix: Better visual styling in the back end to keep up with WordPress 4.0
@@ -104,6 +109,7 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Upgrade Notice ==
 
-= v1.0.6 (August 4th, 2014) =
+= v1.0.7 (August 17th, 2014) =
 
-- Bug Fix: Better visual styling in the back end to keep up with WordPress 4.0
+- Bug Fix: Better backend tabbing from the title to the subtitle input field (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/23)).
+- Extra: Add default support for Jetpack Portfolios (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/26)).
