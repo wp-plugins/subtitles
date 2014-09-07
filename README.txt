@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: subtitle, subtitles, title, titles
 Requires at least: 3.9
 Tested up to: 4.0
-Stable tag: 1.0.7
+Stable tag: 2.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,7 +59,7 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Changelog ==
 
-= v2.0.0 (August 31st, 2014) =
+= v2.0.0 (September 7th, 2014) =
 
 - Performance Fix: Better CSS Handling for better overall plugin performance (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/28)).
 
@@ -113,6 +113,6 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Upgrade Notice ==
 
-= v2.0.0 (August 31st, 2014) =
+= v2.0.0 (September 7th, 2014) =
 
 - Performance Fix: Better CSS Handling for better overall plugin performance (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/28)).
