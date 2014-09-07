@@ -59,6 +59,10 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Changelog ==
 
+= v2.0.0 (August 31st, 2014) =
+
+- Performance Fix: Better CSS Handling for better overall plugin performance (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/28)).
+
 = v1.0.7 (August 17th, 2014) =
 
 - Bug Fix: Better backend tabbing from the title to the subtitle input field (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/23)).
@@ -109,7 +113,6 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Upgrade Notice ==
 
-= v1.0.7 (August 17th, 2014) =
+= v2.0.0 (August 31st, 2014) =
 
-- Bug Fix: Better backend tabbing from the title to the subtitle input field (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/23)).
-- Extra: Add default support for Jetpack Portfolios (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/26)).
+- Performance Fix: Better CSS Handling for better overall plugin performance (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/28)).
