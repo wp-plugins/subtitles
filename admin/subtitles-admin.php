@@ -89,7 +89,11 @@ if ( ! class_exists( 'Subtitles_Admin' ) ) {
 			 *
 			 * @since 1.0.0
 			 */
-			add_action( 'edit_form_after_title', array( &$this, 'build_subtitle_input' ) );
+			if ( version_compare( $GLOBALS[ 'wp_version' ], '4.1-alpha', '<' ) ) {
+				add_action( 'edit_form_after_title', array( &$this, 'build_subtitle_input' ) );
+			} else {
+				add_action( 'edit_form_before_permalink', array( &$this, 'build_subtitle_input' ) );
+			}
 
 			/**
 			 * Validate and update the subtitle input field.
@@ -278,12 +282,12 @@ if ( ! class_exists( 'Subtitles_Admin' ) ) {
 			 * If the new subtitle entered is blank
 			 */
 			if ( '' === $new_subtitle && $current_subtitle ) {
-			 	delete_post_meta(
-			 		$post_id,				// $post_id the post ID
-			 		$subtitle_meta_key,		// $meta_key the metadata name
-			 		$new_subtitle			// $meta_value the metadata value
-			 	);
-		 	}
+				delete_post_meta(
+					$post_id,				// $post_id the post ID
+					$subtitle_meta_key,		// $meta_key the metadata name
+					$new_subtitle			// $meta_value the metadata value
+				);
+			}
 		} // end update_subtitle_data()
 
 		/**
