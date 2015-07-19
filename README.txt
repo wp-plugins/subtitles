@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: subtitle, subtitles, title, titles
 Requires at least: 3.9
 Tested up to: 4.3
-Stable tag: 2.0.1
+Stable tag: 2.1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -58,6 +58,13 @@ There are two types of questions that are anticipated: user questions and develo
 2. The front end view of a blog post with a subtitle.
 
 == Changelog ==
+
+= v2.1.0 (July 20th, 2015) =
+
+- Extra: Add a Subtitle column into the Posts and Pages admin screens.
+- Extra: We have added in a way for developers to allow more tags in subtitles input.
+- Extra: Update plugin POT.
+- Patch: Remove font sizing from hidden entry subtitle in comments area (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/46])).
 
 = v2.0.1 (November 6th, 2014) =
 
