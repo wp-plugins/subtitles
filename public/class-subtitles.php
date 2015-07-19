@@ -500,7 +500,7 @@ if ( ! class_exists( 'Subtitles' ) ) {
 				 * Description: Easily add subtitles into your WordPress posts, pages, custom post types, and themes.
 				 * Author: Philip Arthur Moore
 				 * Author URI: https://philiparthurmoore.com/
-				 * Version: 2.0.1
+				 * Version: 2.1.0
 				 * License: GNU General Public License v2 or later
 				 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 				 */
@@ -525,7 +525,6 @@ if ( ! class_exists( 'Subtitles' ) ) {
 				 */
 				#comments .comments-title span.entry-subtitle {
 					display: none;
-					font-size: 1em;
 				}
 			</style><?php
 		} // end function subtitle_styling
@@ -730,7 +729,7 @@ if ( ! class_exists( 'Subtitles' ) ) {
 			$post_id = ( isset( $post ) ) ? $post->ID : 0; // post ID should always be a non-negative integer
 			$subtitle = (string) html_entity_decode( wp_unslash( esc_html( get_post_meta( $post_id, self::SUBTITLE_META_KEY, true ) ) ), ENT_QUOTES );
 
-			if ( '' == $subtitle ) {
+			if ( '' === $subtitle ) {
 				return $subtitle;
 			}
 
