@@ -56,6 +56,7 @@ There are two types of questions that are anticipated: user questions and develo
 
 1. The input prompt for subtitles.
 2. The front end view of a blog post with a subtitle.
+3. Subtitles are shown in post and page pages in the Dashboard.
 
 == Changelog ==
 
@@ -127,9 +128,9 @@ There are two types of questions that are anticipated: user questions and develo
 
 == Upgrade Notice ==
 
-= v2.0.1 (November 6th, 2014) =
+= v2.1.0 (July 20th, 2015) =
 
-- Bug Fix: Do not show subtitles in RSS feeds (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/32)).
-- Extra: Russian (ru_RU) language packs added
-- Extra: Better WordPress Coding Standards
-- Extra: WordPress 4.1 introduced a new hook called `edit_form_before_permalink` that allows us to move Subtitles into a more natural position, just underneath the post title. Let's use that and preserve backwards compatibility for older versions of WordPress (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/30)).
+- Extra: Add a Subtitle column into the Posts and Pages admin screens.
+- Extra: We have added in a way for developers to allow more tags in subtitles input.
+- Extra: Update plugin POT.
+- Patch: Remove font sizing from hidden entry subtitle in comments area (see [issue](https://github.com/philiparthurmoore/Subtitles/issues/46])).
